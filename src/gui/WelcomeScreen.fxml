@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<fx:root type="VBox" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="700.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="700.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/achtergrond_taalkeuze.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="UKVlag" fitHeight="140.0" fitWidth="274.0" layoutX="216.0" layoutY="331.0" onMouseClicked="#keuzeEngels" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/UK_vlag.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="QueendominoLogo" fitHeight="224.0" fitWidth="524.0" layoutX="238.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/QueenDomino.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="NLVlag" fitHeight="140.0" fitWidth="233.0" layoutX="551.0" layoutY="331.0" onMouseClicked="#keuzeNederlands" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/NL_vlag.jpg" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Text fill="WHITE" layoutX="390.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose your language Kies je taal" textAlignment="CENTER" wrappingWidth="220.9676513671874">
+               <font>
+                  <Font name="Consolas Bold" size="20.0" />
+               </font></Text>
+            <Text fill="#1b87c4" layoutX="222.0" layoutY="498.0" strokeType="OUTSIDE" strokeWidth="0.0" text="English" textAlignment="CENTER" wrappingWidth="220.9676513671874">
+               <font>
+                  <Font name="Consolas Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="#1b87c4" layoutX="557.0" layoutY="498.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nederlands" textAlignment="CENTER" wrappingWidth="220.9676513671874">
+               <font>
+                  <Font name="Consolas Bold" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</fx:root>
