@@ -4,6 +4,6 @@ Java applicatie van Kingdomino, genaamd Queendomino door ons vrouwelijke dev-tea
 
 ## 🎞️ Bekijk de demo
 
-<a href="https://youtu.be/KSp42nTdG4I">
+<a href="https://youtu.be/KSp42nTdG4I" target="_blank">
     <img src="./Queendomino_YT_Player.jpg" height="300" style="object-fit: cover;">
 </a>
